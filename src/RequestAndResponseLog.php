@@ -10,10 +10,10 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Wufly\Log\Jobs\SaveLogJob;
-use Wufly\Log\Request;
+use PalmBuy\Log\Jobs\SaveLogJob;
+use PalmBuy\Log\Request;
 use Illuminate\Support\Facades\Config;
-use Wufly\Logstash;
+use PalmBuy\Logstash;
 
 class RequestAndResponseLog implements MiddlewareInterface
 {
