@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/request-response-middleware.iml" filepath="$PROJECT_DIR$/.idea/request-response-middleware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hyperf-request-response-middleware.iml" filepath="$PROJECT_DIR$/.idea/hyperf-request-response-middleware.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Palmbuy\Log;
+namespace Palmbuy\Log\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
