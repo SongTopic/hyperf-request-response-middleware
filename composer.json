@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
-        "wufly/logstash": "^1.0"
+        "palmbuy/hyperf-logstash": "^1.0"
     },
     "extra": {
         "branch-alias": {

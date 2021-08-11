@@ -1,6 +1,6 @@
 <?php
 
-namespace Wufly\Log;
+namespace Palmbuy\Log;
 
 use App\Common\IdGenerator\Uuid;
 use Carbon\Carbon;

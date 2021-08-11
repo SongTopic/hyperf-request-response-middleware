@@ -1,6 +1,6 @@
 <?php
 
-namespace Wufly\log;
+namespace Palmbuy\Log;
 
 class Request
 {

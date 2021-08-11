@@ -1,6 +1,6 @@
 <?php
 
-namespace Wufly\Log;
+namespace Palmbuy\Log;
 
 use Illuminate\Support\ServiceProvider;
 
