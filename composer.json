@@ -1,14 +1,8 @@
 {
-    "name": "wufly632/request-response-middleware",
+    "name": "palmbuy/hyperf-request-response-middleware",
     "description": "A middleware that records request and response data",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "authors": [
-        {
-            "name": "wufly",
-            "email": "wfxykzd@163.com"
-        }
-    ],
     "type": "package",
     "license": "MIT",
     "require": {
@@ -20,12 +14,12 @@
             "dev-develop": "1.0-dev"
         },
         "hyperf": {
-            "config": "Wufly\\Log\\RequestLogServiceProvider"
+            "config": "Palmbuy\\Log\\RequestLogServiceProvider"
         }
     },
     "autoload": {
         "psr-4": {
-            "Wufly\\Log\\": "src/"
+            "Palmbuy\\Log\\": "src/"
         }
     }
 }
