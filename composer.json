@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
-        "palmbuy/hyperf-logstash": "^1.0"
+        "palmbuy/hyperf-logstash": "~1.1"
     },
     "extra": {
         "branch-alias": {
