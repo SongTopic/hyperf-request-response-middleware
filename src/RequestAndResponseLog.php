@@ -14,6 +14,7 @@ use PalmBuy\Log\Jobs\SaveLogJob;
 use PalmBuy\Log\Request;
 use Illuminate\Support\Facades\Config;
 use PalmBuy\Logstash;
+use Palmbuy\Logger\LogstashLogger;
 
 class RequestAndResponseLog implements MiddlewareInterface
 {
@@ -65,8 +66,8 @@ class RequestAndResponseLog implements MiddlewareInterface
             'response_data' => $response_data,
             'created_at' => Carbon::now()->toDateTimeString(),
         ];
-        Logstash::channel('request-and-response-log')->info('', $data);
-
+//        Logstash::channel('request-and-response-log')->info('', $data);
+        (new LogstashLogger('request-and-response-log'))->info('', $data);
         if (config('requestLog.table.save')) {
             SaveLogJob::dispatch($data);
         }
